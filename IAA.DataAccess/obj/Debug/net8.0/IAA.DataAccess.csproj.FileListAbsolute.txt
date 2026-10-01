@@ -1,0 +1,13 @@
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.AssemblyInfo.cs
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.sourcelink.json
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\bin\Debug\net8.0\IAA.DataAccess.deps.json
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\bin\Debug\net8.0\IAA.DataAccess.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\bin\Debug\net8.0\IAA.DataAccess.pdb
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\refint\IAA.DataAccess.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\IAA.DataAccess.pdb
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.DataAccess\obj\Debug\net8.0\ref\IAA.DataAccess.dll

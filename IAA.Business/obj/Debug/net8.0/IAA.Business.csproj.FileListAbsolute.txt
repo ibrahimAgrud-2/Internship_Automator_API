@@ -1,0 +1,16 @@
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\bin\Debug\net8.0\IAA.Business.deps.json
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\bin\Debug\net8.0\IAA.Business.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\bin\Debug\net8.0\IAA.Business.pdb
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.csproj.AssemblyReference.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.AssemblyInfoInputs.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.AssemblyInfo.cs
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.sourcelink.json
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\refint\IAA.Business.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Business.pdb
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\ref\IAA.Business.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\bin\Debug\net8.0\IAA.DataAccess.dll
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\bin\Debug\net8.0\IAA.DataAccess.pdb
+C:\Users\ibrah\source\repos\InternApplicationAutomator.API\IAA.Business\obj\Debug\net8.0\IAA.Busi.731D96AF.Up2Date
