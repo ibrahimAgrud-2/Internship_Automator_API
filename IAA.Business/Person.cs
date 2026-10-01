@@ -54,5 +54,15 @@ namespace IAA.Business
             //Mapping yapıp personEntity objesi oluşturup data access'e öyle göndermelisin.
             //Özellikle find yaparken 13 paramtere vermek zorunda kalmicaz
         }
+
+        public static PersonDTO Find(int PersonID)
+        {
+            PersonDataAccess.PersonEntity personEntity = PersonDataAccess.Find(PersonID);
+            if(personEntity!=null)
+            {
+                return new PersonDTO(personEntity.ID,personEntity.FirstName,personEntity.LastName,personEntity.Email,personEntity.phone,personEntity.Address,personEntity.ImagePath);
+            }
+            return null;
+        }
     }
 }

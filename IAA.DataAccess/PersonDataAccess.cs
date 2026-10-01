@@ -35,7 +35,7 @@ namespace IAA.DataAccess
         }
 
 
-        public static string ConnectionString = "Data Source=IBRAHIM;Initial Catalog=IAA;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
+        public static string _ConnectionString = "Data Source=IBRAHIM;Initial Catalog=IAA;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False";
 
 
         public static List<PersonEntity> getAllPeople()
@@ -43,7 +43,7 @@ namespace IAA.DataAccess
 
 
             List<PersonEntity> People = new List<PersonEntity>();
-            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            using (SqlConnection connection = new SqlConnection(_ConnectionString))
             {
                 string sqlQuery = @"select PersonID, FirstName, LastName, Email, Phone, Address, ImagePath from People";
 
@@ -79,6 +79,49 @@ namespace IAA.DataAccess
             }
             return People;
         }
+
+        public static PersonEntity Find(int PersonID)
+        {
+            using (var connection = new SqlConnection(_ConnectionString))
+               
+            using (var command = new SqlCommand("Select * from people where personID = @PersonID", connection))
+            {
+
+                command.Parameters.AddWithValue("@PersonID", PersonID);
+
+                try
+                {
+                    connection.Open();
+                    using (var read = command.ExecuteReader())
+                    {
+                        if (read.Read())
+                        {
+                            return new PersonEntity
+                            (
+                              read.GetInt32(read.GetOrdinal("PersonID")),
+                              read.GetString(read.GetOrdinal("FirstName")),
+                              read.GetString(read.GetOrdinal("LastName")),
+                              read.GetString(read.GetOrdinal("Email")),
+                              read.GetString(read.GetOrdinal("Phone")),
+                              read.GetString(read.GetOrdinal("Address")),
+                              read.GetString(read.GetOrdinal("ImagePath"))
+
+                            );
+                        }
+                        else
+                        {
+                            return null;
+                        }
+                    }
+                }
+                catch(Exception)
+                {
+                    Console.WriteLine("An error Occurred");
+                    return null;
+                }
+            }
+        }
+
 
 
     }

@@ -1,6 +1,41 @@
 [
   {
     "ContainingType": "InternApplicationAutomator.API.Controllers.PersonController",
+    "Method": "GetPersonByID",
+    "RelativePath": "api/Students/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IAA.Business.Person\u002BPersonDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "InternApplicationAutomator.API.Controllers.PersonController",
     "Method": "GetAllPeople",
     "RelativePath": "api/Students/All",
     "HttpMethod": "GET",

@@ -29,5 +29,25 @@ namespace InternApplicationAutomator.API.Controllers
             return Ok(StudentList);
         }
 
+
+        [HttpGet("{ID}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<Person.PersonDTO> GetPersonByID(int ID)
+        {
+            if (ID < 1)
+            {
+                return BadRequest($"Not Accepted ID {ID}");
+            }
+            Person.PersonDTO p = Person.Find(ID);
+            if(p==null)
+            {
+                return NotFound($"No Person With ID {ID}");
+            }
+            return Ok(p);
+         
+        }
+
     }
 }
